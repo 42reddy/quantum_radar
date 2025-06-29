@@ -11,7 +11,7 @@ class quantum_state():
 
         return (np.kron(H,H) + np.kron(V,V)) / np.sqrt(2)
 
-    def unitary_operator(self, theta_i, n1=1.0, n2=1.05):
+    def unitary_operator(self, theta_i, n1=1.0, n2=1.1):
         """
         Returns a 2x2 unitary matrix representing the effect of Fresnel reflection
         on H (horizontal) and V (vertical) polarizations.
